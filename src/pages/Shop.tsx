@@ -89,9 +89,7 @@ const Shop = () => {
           {/* Filter Sidebar */}
           <div 
             className={`${
-              showFilters || !("md:block")
-                ? "block animate-fade-in"
-                : "hidden"
+              showFilters ? "block animate-fade-in" : "hidden"
             } md:block md:w-64 lg:w-72 shrink-0`}
           >
             <div className="bg-card p-4 rounded-lg border shadow-sm divide-y divide-border">

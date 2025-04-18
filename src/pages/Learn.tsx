@@ -78,9 +78,7 @@ const Learn = () => {
             {/* Filters Sidebar */}
             <div
               className={`${
-                showFilters || !("md:block")
-                  ? "block"
-                  : "hidden"
+                showFilters ? "block" : "hidden"
               } md:block md:w-64 shrink-0`}
             >
               <div className="bg-card p-4 rounded-lg border shadow-sm space-y-6">
