@@ -15,8 +15,8 @@ import Learn from "./pages/Learn";
 import Cart from "./pages/Cart";
 import NotFound from "./pages/NotFound";
 
-// Publishable key is optional - if missing, Clerk components will still render but in a demo mode
-const CLERK_PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY || "";
+// Use the provided Clerk publishable key
+const CLERK_PUBLISHABLE_KEY = "pk_test_bGVuaWVudC1waXBlZmlzaC0zLmNsZXJrLmFjY291bnRzLmRldiQ";
 
 const queryClient = new QueryClient();
 
